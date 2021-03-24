@@ -23,7 +23,8 @@ Tela deve ajustar em devices menores.
 # Plus:
 
 Utilizar Kotlin;
-Construir layouts com Constraints.
+Testes Unitários;
+Clean Code
 
 # O que esperamos:
 Padrão de Projeto e boas práticas de Orientação a Objetos.
