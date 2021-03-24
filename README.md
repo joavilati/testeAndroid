@@ -20,15 +20,15 @@ https://docs.thecatapi.com/
 
 Versão mínima do SDK: 16
 Tela deve ajustar em devices menores.
-#Plus:
+# Plus:
 
 Utilizar Kotlin;
 Construir layouts com Constraints.
 
-#O que esperamos:
+# O que esperamos:
 Padrão de Projeto e boas práticas de Orientação a Objetos.
 
-#Para fazer o teste
+# Para fazer o teste
 Crie uma branch a partir da master com seu nome
 Trabalhe o seu projeto nessa branch.
 Quando finalizar fazer um PR para master e avisar para o RH que acabou.
