@@ -22,14 +22,14 @@ Versão mínima do SDK: 16
 Tela deve ajustar em devices menores.
 # Plus:
 
-Utilizar Kotlin;
-Testes Unitários;
-Clean Code
+* Utilizar Kotlin.
+* Testes Unitários.
+* Clean Code.
 
 # O que esperamos:
 Padrão de Projeto e boas práticas de Orientação a Objetos.
 
 # Para fazer o teste:
-Crie uma branch a partir da master com seu nome
-Trabalhe o seu projeto nessa branch.
-Quando finalizar fazer um PR para master e avisar para o RH que acabou.
+* Crie uma branch a partir da master com seu nome
+* Trabalhe o seu projeto nessa branch.
+* Quando finalizar fazer um PR para master e avisar para o RH que acabou.
