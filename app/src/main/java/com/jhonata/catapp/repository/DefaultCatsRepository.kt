@@ -15,7 +15,14 @@ class DefaultCatsRepository @Inject constructor(
         emit(ResponseDTO.loading<List<Breed>>())
         try {
             val result =  api.getBreeds(page = page)
-            emit(ResponseDTO.success(result.body()))
+            result.run {
+                if(isSuccessful) {
+                    emit(ResponseDTO.success(body()))
+                } else {
+                    emit(ResponseDTO.error<List<Breed>>(message = message(), code = code()))
+                }
+            }
+
         } catch (e: Exception) {
             emit(ResponseDTO.error<List<Breed>>(e))
         }

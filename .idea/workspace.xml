@@ -32,44 +32,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fbdb3e6-9ab6-4852-a199-d949ea155c66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_2_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_ktx_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_3_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_ktx_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/di/RepositoryModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/viewmodel/CatsViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_3_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/CatApp.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/CatApp.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/repository/CatRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/repository/CatsRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/repository/DefaultCatRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/repository/DefaultCatsRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/retrofit/TheCatApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/retrofit/TheCatApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/viewmodel/CatsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/viewmodel/CatsViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618194964125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(All) adjust and finish di, adjust request.">
+      <created>1618278387475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618278387475</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,7 +290,8 @@
     <MESSAGE value="garbage" />
     <MESSAGE value="refac(di): adjust injection." />
     <MESSAGE value="feat(DefaultCatRepository): create breeds reques." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(DefaultCatRepository): create breeds reques." />
+    <MESSAGE value="feat(All) adjust and finish di, adjust request." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(All) adjust and finish di, adjust request." />
   </component>
   <component name="WindowStateProjectService">
     <state x="470" y="104" key="#com.intellij.ide.util.MemberChooser" timestamp="1618191147913">
@@ -319,29 +302,29 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="304" y="48" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618274134291" />
-    <state width="1324" height="619" key="GridCell.Tab.0.bottom" timestamp="1618278255345">
+    <state width="1324" height="416" key="GridCell.Tab.0.bottom" timestamp="1618280983116">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="619" key="GridCell.Tab.0.bottom/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618278255345" />
-    <state width="1324" height="619" key="GridCell.Tab.0.center" timestamp="1618278255343">
+    <state width="1324" height="416" key="GridCell.Tab.0.bottom/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618280983116" />
+    <state width="1324" height="416" key="GridCell.Tab.0.center" timestamp="1618280983114">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="619" key="GridCell.Tab.0.center/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618278255343" />
-    <state width="1324" height="619" key="GridCell.Tab.0.left" timestamp="1618278255342">
+    <state width="1324" height="416" key="GridCell.Tab.0.center/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618280983114" />
+    <state width="1324" height="416" key="GridCell.Tab.0.left" timestamp="1618280983112">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="619" key="GridCell.Tab.0.left/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618278255342" />
-    <state width="1324" height="619" key="GridCell.Tab.0.right" timestamp="1618278255344">
+    <state width="1324" height="416" key="GridCell.Tab.0.left/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618280983112" />
+    <state width="1324" height="416" key="GridCell.Tab.0.right" timestamp="1618280983115">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="619" key="GridCell.Tab.0.right/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618278255344" />
-    <state x="59" y="82" width="743" height="490" key="find.popup" timestamp="1618277810507">
+    <state width="1324" height="416" key="GridCell.Tab.0.right/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618280983115" />
+    <state x="59" y="82" width="844" height="490" key="find.popup" timestamp="1618281161751">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="59" y="82" width="743" height="490" key="find.popup/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618277810507" />
-    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1618276395540">
+    <state x="59" y="82" width="844" height="490" key="find.popup/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618281161751" />
+    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1618281167310">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618276395540" />
+    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618281167310" />
   </component>
 </project>

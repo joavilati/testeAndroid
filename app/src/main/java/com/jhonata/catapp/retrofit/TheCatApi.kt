@@ -7,7 +7,7 @@ import retrofit2.http.Query
 
 interface TheCatApi {
 
-    @GET("breeds")
+    @GET("breed")
     suspend fun getBreeds(
         @Query("order") order:String = "asc",
         @Query("page") page:Int,

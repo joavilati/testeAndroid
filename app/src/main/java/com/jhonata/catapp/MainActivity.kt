@@ -23,29 +23,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        createObservers()
+        viewModel.getBreeds(1)
     }
 
-    override fun onResume() {
-        super.onResume()
-        lifecycleScope.launch {
-            launch {
-                viewModel.getBreeds(1).collect { response ->
-                    when (response.statusDTO) {
-                        StatusDTO.SUCCESS -> {
-                            Log.d(TAG, "NINJA SUCCESSFUL ${response.data}")
-                        }
-                        StatusDTO.LOADING -> {
-                            Log.d(TAG, "NINJA LOADING...")
-                        }
-                        StatusDTO.ERROR -> {
-                            Log.e(TAG, "NINJA Error ${response.error}")
-                        }
-                    }
-
-
-                    Log.d(TAG, "")
-                }
-            }
+    private fun createObservers() {
+        viewModel.breeds.observe(this) {
+            Log.d(TAG, "NINJA succes")
+        }
+        viewModel.loading.observe(this) {
+            Log.d(TAG, "NINJA loading $it")
+        }
+        viewModel.error.observe(this) {
+            Log.d(TAG, "NINJA error $it")
         }
     }
+
 }
