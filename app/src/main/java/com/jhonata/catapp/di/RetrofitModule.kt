@@ -1,7 +1,7 @@
 package com.jhonata.catapp.di
 
+import com.jhonata.catapp.BuildConfig
 import com.jhonata.catapp.retrofit.TheCatApi
-import com.jhonata.catapp.util.BASE_URL
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -13,6 +13,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
+
+const val BASE_URL = BuildConfig.BASE_URL
 
 @Module
 @InstallIn(SingletonComponent::class)

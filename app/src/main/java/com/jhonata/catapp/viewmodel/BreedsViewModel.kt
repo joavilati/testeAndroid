@@ -1,6 +1,5 @@
 package com.jhonata.catapp.viewmodel
 
-import android.util.Log
 import androidx.lifecycle.*
 import com.jhonata.catapp.model.Breed
 import com.jhonata.catapp.model.StatusDTO
@@ -13,7 +12,7 @@ import javax.inject.Inject
 private const val TAG = "CatsViewModel"
 
 @HiltViewModel
-class CatsViewModel @Inject constructor(
+class BreedsViewModel @Inject constructor(
     private val repository: CatsRepository,
     private val savedStateHandle: SavedStateHandle
 ) : ViewModel() {

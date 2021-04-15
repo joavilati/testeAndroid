@@ -6,7 +6,6 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="NINJA" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
@@ -32,6 +31,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fbdb3e6-9ab6-4852-a199-d949ea155c66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_testing_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_2_0_beta06_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nhaarman_mockitokotlin2_mockito_kotlin_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_test_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_inline_2_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/ui/BreedListFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_breed_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/json/2breeds.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/json/breeds.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/json/empty.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/jhonata/catapp/BaseTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/jhonata/catapp/BreedsViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/jhonata/catapp/extensions/Any.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/jhonata/catapp/extensions/Gson.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/jhonata/catapp/extensions/LiveData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/jhonata/catapp/util/Assertion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/jhonata/catapp/util/JSONFileNames.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -42,16 +68,28 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/CatApp.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/CatApp.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/viewmodel/CatsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/viewmodel/CatsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/di/RetrofitModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/di/RetrofitModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/model/Breed.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/model/Breed.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/util/SupportInterceptor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/util/SupportInterceptor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/viewmodel/CatsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/viewmodel/BreedsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/jhonata/catapp/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@ce051715604784650d]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/jhonata/.android/avd/Pixel_2_API_27.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -78,6 +116,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Object" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -97,12 +137,79 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="memory.settings.postsync.last.time.stamp" value="1618180737961" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/resources" />
+      <recent name="$PROJECT_DIR$/app/src/main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android JUnit.BreedsViewModelTest.when request new breeds, on page 0, it must match with the expected mocked breeds">
+    <configuration name="BreedsViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CatApp.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jhonata.catapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jhonata.catapp" />
+      <option name="MAIN_CLASS_NAME" value="com.jhonata.catapp.BreedsViewModelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreedsViewModelTest.when request new breeds, on page 0, it must match with the expected mocked breeds" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CatApp.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jhonata.catapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jhonata.catapp" />
+      <option name="MAIN_CLASS_NAME" value="com.jhonata.catapp.BreedsViewModelTest" />
+      <option name="METHOD_NAME" value="when request new breeds, on page 0, it must match with the expected mocked breeds" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreedsViewModelTest.when request new breeds, on page 0, it must return a lis of 15 breeds" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CatApp.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jhonata.catapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jhonata.catapp" />
+      <option name="MAIN_CLASS_NAME" value="com.jhonata.catapp.BreedsViewModelTest" />
+      <option name="METHOD_NAME" value="when request new breeds, on page 0, it must return a lis of 15 breeds" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -226,6 +333,13 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.BreedsViewModelTest.when request new breeds, on page 0, it must match with the expected mocked breeds" />
+        <item itemvalue="Android JUnit.BreedsViewModelTest.when request new breeds, on page 0, it must return a lis of 15 breeds" />
+        <item itemvalue="Android JUnit.BreedsViewModelTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -271,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618278387475</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat(CatsViewModel): define pattern of response treatment.">
+      <created>1618283004184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618283004184</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,9 +412,14 @@
     <MESSAGE value="refac(di): adjust injection." />
     <MESSAGE value="feat(DefaultCatRepository): create breeds reques." />
     <MESSAGE value="feat(All) adjust and finish di, adjust request." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(All) adjust and finish di, adjust request." />
+    <MESSAGE value="feat(CatsViewModel): define pattern of response treatment." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(CatsViewModel): define pattern of response treatment." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="208" y="120" key="#PSD" timestamp="1618442295565">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="208" y="120" key="#PSD/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618442295565" />
     <state x="470" y="104" key="#com.intellij.ide.util.MemberChooser" timestamp="1618191147913">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -302,29 +428,52 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="304" y="48" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618274134291" />
-    <state width="1324" height="416" key="GridCell.Tab.0.bottom" timestamp="1618280983116">
+    <state x="294" y="211" key="AndroidCreateResourceDirectoryDialog" timestamp="1618439609585">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="416" key="GridCell.Tab.0.bottom/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618280983116" />
-    <state width="1324" height="416" key="GridCell.Tab.0.center" timestamp="1618280983114">
+    <state x="294" y="211" key="AndroidCreateResourceDirectoryDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618439609585" />
+    <state x="271" y="143" key="AndroidCreateResourceFileDialog" timestamp="1618443837795">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="416" key="GridCell.Tab.0.center/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618280983114" />
-    <state width="1324" height="416" key="GridCell.Tab.0.left" timestamp="1618280983112">
+    <state x="271" y="143" key="AndroidCreateResourceFileDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618443837795" />
+    <state width="1324" height="619" key="GridCell.Tab.0.bottom" timestamp="1618444634666">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="416" key="GridCell.Tab.0.left/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618280983112" />
-    <state width="1324" height="416" key="GridCell.Tab.0.right" timestamp="1618280983115">
+    <state width="1324" height="619" key="GridCell.Tab.0.bottom/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618444634666" />
+    <state width="1324" height="619" key="GridCell.Tab.0.center" timestamp="1618444634663">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="416" key="GridCell.Tab.0.right/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618280983115" />
+    <state width="1324" height="619" key="GridCell.Tab.0.center/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618444634663" />
+    <state width="1324" height="619" key="GridCell.Tab.0.left" timestamp="1618444634661">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="619" key="GridCell.Tab.0.left/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618444634661" />
+    <state width="1324" height="619" key="GridCell.Tab.0.right" timestamp="1618444634664">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="619" key="GridCell.Tab.0.right/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618444634664" />
+    <state x="192" y="20" key="SettingsEditor" timestamp="1618440883308">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="192" y="20" key="SettingsEditor/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618440883308" />
+    <state x="283" y="121" key="Vcs.Push.Dialog.v2" timestamp="1618283090106">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="283" y="121" key="Vcs.Push.Dialog.v2/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618283090106" />
     <state x="59" y="82" width="844" height="490" key="find.popup" timestamp="1618281161751">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="59" y="82" width="844" height="490" key="find.popup/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618281161751" />
-    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1618281167310">
+    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1618441871322">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618281167310" />
+    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618441871322" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="AndroidJUnit">
+        <watch expression="response" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
