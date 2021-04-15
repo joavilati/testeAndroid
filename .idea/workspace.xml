@@ -2,7 +2,9 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel" />
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
@@ -31,17 +33,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fbdb3e6-9ab6-4852-a199-d949ea155c66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/ui/BreedListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/ui/DetailFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/enter_from_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/enter_from_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/exit_to_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/exit_to_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_error_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/kitty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/item_breed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_breed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/jhonata/catapp/BaseTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/jhonata/catapp/BaseTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/model/Breed.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/model/Breed.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/model/Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/model/Image.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/retrofit/TheCatApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/retrofit/TheCatApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/ui/BreedListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/ui/BreedListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/viewmodel/BreedsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jhonata/catapp/viewmodel/BreedsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_breed_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_breed_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/jhonata/.android/avd/Pixel_2_API_27.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@ce051715604784650d]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -70,6 +104,8 @@
         <option value="Kotlin Interface" />
         <option value="Kotlin File" />
         <option value="Kotlin Object" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -87,8 +123,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_g950f-ce051715604784650d" />
+    <property name="DEBUGGABLE_PROCESS" value="com.jhonata.catapp" />
+    <property name="DEBUGGER_ID" value="Auto" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
@@ -104,6 +144,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/resources" />
       <recent name="$PROJECT_DIR$/app/src/main" />
     </key>
@@ -111,7 +152,7 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.BreedsViewModelTest">
+  <component name="RunManager" selected="Android App.app">
     <configuration name="BreedsViewModelTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="CatApp.app" />
       <extension name="coverage">
@@ -387,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618445292973</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refac(BaseTest): delete reset coroutine call.">
+      <created>1618446119406</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618446119406</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,61 +457,74 @@
     <MESSAGE value="feat(All) adjust and finish di, adjust request." />
     <MESSAGE value="feat(CatsViewModel): define pattern of response treatment." />
     <MESSAGE value="feat(BreedViewModelTest): create initial tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(BreedViewModelTest): create initial tests." />
+    <MESSAGE value="refac(BaseTest): delete reset coroutine call." />
+    <option name="LAST_COMMIT_MESSAGE" value="refac(BaseTest): delete reset coroutine call." />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="120" key="#PSD" timestamp="1618442295565">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="208" y="120" key="#PSD/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618442295565" />
-    <state x="470" y="104" key="#com.intellij.ide.util.MemberChooser" timestamp="1618191147913">
+    <state x="470" y="104" key="#com.intellij.ide.util.MemberChooser" timestamp="1618450439267">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="470" y="104" key="#com.intellij.ide.util.MemberChooser/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618191147913" />
+    <state x="470" y="104" key="#com.intellij.ide.util.MemberChooser/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618450439267" />
     <state x="304" y="48" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1618274134291">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="304" y="48" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618274134291" />
-    <state x="294" y="211" key="AndroidCreateResourceDirectoryDialog" timestamp="1618439609585">
+    <state x="421" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618460158938">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="294" y="211" key="AndroidCreateResourceDirectoryDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618439609585" />
+    <state x="421" y="135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618460158938" />
+    <state x="294" y="211" key="AndroidCreateResourceDirectoryDialog" timestamp="1618449499175">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="294" y="211" key="AndroidCreateResourceDirectoryDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618449499175" />
     <state x="271" y="143" key="AndroidCreateResourceFileDialog" timestamp="1618443837795">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="271" y="143" key="AndroidCreateResourceFileDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618443837795" />
-    <state width="1324" height="619" key="GridCell.Tab.0.bottom" timestamp="1618445594999">
+    <state x="516" y="165" key="AndroidCreateXmlResourceDialog" timestamp="1618462684647">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="619" key="GridCell.Tab.0.bottom/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618445594999" />
-    <state width="1324" height="619" key="GridCell.Tab.0.center" timestamp="1618445594997">
+    <state x="516" y="165" key="AndroidCreateXmlResourceDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618462684647" />
+    <state x="447" y="134" key="AndroidProcessChooserDialog" timestamp="1618455094570">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="619" key="GridCell.Tab.0.center/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618445594997" />
-    <state width="1324" height="619" key="GridCell.Tab.0.left" timestamp="1618445594996">
+    <state x="447" y="134" key="AndroidProcessChooserDialog/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618455094570" />
+    <state width="1324" height="346" key="GridCell.Tab.0.bottom" timestamp="1618455695530">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="619" key="GridCell.Tab.0.left/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618445594996" />
-    <state width="1324" height="619" key="GridCell.Tab.0.right" timestamp="1618445594998">
+    <state width="1324" height="346" key="GridCell.Tab.0.bottom/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618455695530" />
+    <state width="1324" height="346" key="GridCell.Tab.0.center" timestamp="1618455695527">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="619" key="GridCell.Tab.0.right/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618445594998" />
+    <state width="1324" height="346" key="GridCell.Tab.0.center/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618455695527" />
+    <state width="1324" height="346" key="GridCell.Tab.0.left" timestamp="1618455695526">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="346" key="GridCell.Tab.0.left/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618455695526" />
+    <state width="1324" height="346" key="GridCell.Tab.0.right" timestamp="1618455695528">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="346" key="GridCell.Tab.0.right/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618455695528" />
     <state x="192" y="20" key="SettingsEditor" timestamp="1618440883308">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="192" y="20" key="SettingsEditor/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618440883308" />
-    <state x="283" y="121" key="Vcs.Push.Dialog.v2" timestamp="1618445296614">
+    <state x="283" y="121" key="Vcs.Push.Dialog.v2" timestamp="1618465983082">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="283" y="121" key="Vcs.Push.Dialog.v2/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618445296614" />
+    <state x="283" y="121" key="Vcs.Push.Dialog.v2/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618465983082" />
     <state x="59" y="82" width="844" height="490" key="find.popup" timestamp="1618281161751">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="59" y="82" width="844" height="490" key="find.popup/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618281161751" />
-    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1618441871322">
+    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1618464765601">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618441871322" />
+    <state x="348" y="92" width="670" height="676" key="search.everywhere.popup/-1280.0.1280.800/0.0.1366.768@0.0.1366.768" timestamp="1618464765601" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

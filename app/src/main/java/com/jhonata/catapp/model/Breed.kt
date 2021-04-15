@@ -8,5 +8,5 @@ data class Breed (
     val origin: String = "",
     val temperament: String = "",
     val description: String = "",
-    val image: Image
+    val image: Image = Image()
 )

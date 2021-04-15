@@ -7,11 +7,11 @@ import retrofit2.http.Query
 
 interface TheCatApi {
 
-    @GET("breed")
+    @GET("breeds")
     suspend fun getBreeds(
-        @Query("order") order:String = "asc",
         @Query("page") page:Int,
-        @Query("limit") limit: Int = 15
+        @Query("limit") limit: Int = 15,
+        @Query("order") order:String = "asc"
     ):Response<List<Breed>>
 
 }

@@ -17,10 +17,17 @@ class BreedsViewModel @Inject constructor(
     private val savedStateHandle: SavedStateHandle
 ) : ViewModel() {
 
-    private val _breeds = MutableLiveData<List<Breed>>()
-    val breeds: LiveData<List<Breed>> get() = _breeds
+    var chosenBreed:Breed? = null
+    private set
 
-    private val _loading = MutableLiveData<TURN>()
+    var positionBreed: Int? = null
+    private set
+
+    private val breedList = mutableSetOf<Breed>()
+    private val _breeds = MutableLiveData<Set<Breed>>()
+    val breeds: LiveData<Set<Breed>> get() = _breeds
+
+    private val _loading = MutableLiveData<TURN>(TURN.NONE)
     val loading: LiveData<TURN> get() = _loading
 
     private val _error = MutableLiveData<TURN>()
@@ -32,7 +39,8 @@ class BreedsViewModel @Inject constructor(
             repository.getBreeds(page).collect { response ->
                 when (response.statusDTO) {
                     StatusDTO.SUCCESS -> {
-                        _breeds.value = response.data!!
+                        breedList.addAll(response.data!!)
+                        _breeds.value = breedList
                     }
                     StatusDTO.LOADING -> {
                         _loading.postValue(turn)
@@ -45,8 +53,15 @@ class BreedsViewModel @Inject constructor(
         }
     }
 
+    // Ia fazer um loading direfente para cada estado, mas por questão de tempo vou deixar para depois...
     enum class TURN {
         FIRST,
-        OTHERS
+        OTHERS,
+        NONE
+    }
+
+    fun setChosenBreed(breed: Breed, position: Int) {
+        chosenBreed = breed
+        positionBreed = position
     }
 }
