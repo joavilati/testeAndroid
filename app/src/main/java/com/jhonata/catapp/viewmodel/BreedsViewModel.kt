@@ -41,11 +41,13 @@ class BreedsViewModel @Inject constructor(
                     StatusDTO.SUCCESS -> {
                         breedList.addAll(response.data!!)
                         _breeds.value = breedList
+                        _loading.postValue(TURN.NONE)
                     }
                     StatusDTO.LOADING -> {
                         _loading.postValue(turn)
                     }
                     StatusDTO.ERROR -> {
+                        _loading.postValue(TURN.NONE)
                         _error.postValue(turn)
                     }
                 }

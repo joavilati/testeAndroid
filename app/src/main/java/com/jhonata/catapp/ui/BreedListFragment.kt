@@ -55,11 +55,11 @@ class BreedListFragment : Fragment() {
             if (breedList.isNotEmpty()) {
                 adapter.addBreeds(breedList.toList())
             }
-            binding.cpiLoading.visibility = View.GONE
+            binding.pbLoading.visibility = View.GONE
         }
         viewModel.loading.observe(viewLifecycleOwner){ turn ->
             if(turn != NONE) {
-                binding.cpiLoading.visibility = View.VISIBLE
+                binding.pbLoading.visibility = View.VISIBLE
             }
         }
 
@@ -67,7 +67,7 @@ class BreedListFragment : Fragment() {
             if(turn != NONE ){
                 Toast.makeText(requireContext(), "Erro ao carregar mais raças", Toast.LENGTH_SHORT).show()
             }
-            binding.cpiLoading.visibility = View.GONE
+            binding.pbLoading.visibility = View.GONE
         }
     }
 
