@@ -19,10 +19,9 @@ import org.junit.Test
 import org.mockito.Mockito.*
 import retrofit2.Response
 
-
 @ExperimentalCoroutinesApi
 class BreedsViewModelTest: BaseTest() {
-    lateinit var viewModel: BreedsViewModel
+    private lateinit var viewModel: BreedsViewModel
     private val api: TheCatApi by lazy {
         mock(TheCatApi::class.java)
     }
@@ -40,7 +39,7 @@ class BreedsViewModelTest: BaseTest() {
 
         val expectedValue = Assertion(15)
 
-        `when`(api.getBreeds(anyString(), anyInt(), anyInt())).thenReturn(response)
+        `when`(api.getBreeds(anyInt(), anyInt(), anyString())).thenReturn(response)
 
         viewModel.getBreeds(0)
 
@@ -52,11 +51,11 @@ class BreedsViewModelTest: BaseTest() {
         val response = Response.success(readJSON<List<Breed>>(JSONFileNames.TWO_BREEDS_JSON))
 
         val expectedBreeds = Assertion(breedListOfTwo)
-        `when`(api.getBreeds(anyString(), anyInt(), anyInt())).thenReturn(response)
+        `when`(api.getBreeds(anyInt(), anyInt(), anyString())).thenReturn(response)
 
         viewModel.getBreeds(0)
 
-        expectedBreeds isEqualTo viewModel.breeds.getOrAwaitValue()
+        expectedBreeds isEqualTo viewModel.breeds.getOrAwaitValue().toList()
     }
 
     @Test
@@ -67,7 +66,7 @@ class BreedsViewModelTest: BaseTest() {
         )
 
         val expectedBreeds = Assertion(BreedsViewModel.TURN.FIRST)
-        `when`(api.getBreeds(anyString(), anyInt(), anyInt())).thenReturn(response)
+        `when`(api.getBreeds(anyInt(), anyInt(), anyString())).thenReturn(response)
 
         viewModel.getBreeds(0)
 
@@ -82,7 +81,7 @@ class BreedsViewModelTest: BaseTest() {
         )
 
         val expectedBreeds = Assertion(BreedsViewModel.TURN.OTHERS)
-        `when`(api.getBreeds(anyString(), anyInt(), anyInt())).thenReturn(response)
+        `when`(api.getBreeds(anyInt(), anyInt(), anyString())).thenReturn(response)
 
         viewModel.getBreeds(1)
 

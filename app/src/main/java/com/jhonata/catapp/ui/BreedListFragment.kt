@@ -19,11 +19,13 @@ import com.jhonata.catapp.viewmodel.BreedsViewModel
 import com.jhonata.catapp.viewmodel.BreedsViewModel.TURN.NONE
 
 class BreedListFragment : Fragment() {
+
     private var pageCount = 0
     private var _binding: FragmentBreedListBinding? = null
     private val binding: FragmentBreedListBinding get() = _binding!!
     private val viewModel: BreedsViewModel by activityViewModels()
     private lateinit var adapter: BreedListAdapter
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -51,12 +53,14 @@ class BreedListFragment : Fragment() {
     }
 
     private fun createObserver() {
+
         viewModel.breeds.observe(viewLifecycleOwner) { breedList ->
             if (breedList.isNotEmpty()) {
                 adapter.addBreeds(breedList.toList())
             }
             binding.pbLoading.visibility = View.GONE
         }
+
         viewModel.loading.observe(viewLifecycleOwner){ turn ->
             if(turn != NONE) {
                 binding.pbLoading.visibility = View.VISIBLE
