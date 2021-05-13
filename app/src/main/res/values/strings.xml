@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CatApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_origin">Origem:</string>
+    <string name="temperament_label">Temperamento:</string>
+</resources>

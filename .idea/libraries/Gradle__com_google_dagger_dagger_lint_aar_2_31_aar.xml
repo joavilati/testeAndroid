@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.dagger:dagger-lint-aar:2.31@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa4380f6057cd1acc4713b3694678497/dagger-lint-aar-2.31/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e136cd39d51a0f4254becb1dae21ac97/dagger-lint-aar-2.31/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e136cd39d51a0f4254becb1dae21ac97/dagger-lint-aar-2.31/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e136cd39d51a0f4254becb1dae21ac97/dagger-lint-aar-2.31/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,4 +1,4 @@
-# Teste Desenvolvedor Android Mobo:
+# Teste Desenvolvedor Android:
 Este teste é apresentado aos candidatos as vagas de Android Developer para avaliar os quesitos técnicos.
 
 # O Desafio:
